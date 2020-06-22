@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ blue-advertisement.surge.sh/ --token $ {{ secrets.BOOT_TOKKEN }}
+        run: surge ./ blue-advertisement.surge.sh/ --token ${{ secrets.BOOT_TOKKEN }}
